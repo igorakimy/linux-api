@@ -6,5 +6,5 @@ set(CMAKE_C_STANDARD 99)
 add_executable(linux_api
         lib/error_functions.c
         lib/get_num.c
-        fileio/copy.c
+        fileio/seek_io.c
 )
